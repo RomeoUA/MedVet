@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+.header-title {
+    color: #6278B4;
+    font-size: 2rem;
+}
+.header-img {
+    width: 100%;
+    height: 2.5rem;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 700;
+    margin-right: 60px;
+}
+.header-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.titlexlogo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+.main-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info {
+    color: #6278B4;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main-title {
+    font-size: 40px;
+    font-weight: 800;
+}
+.main-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+.text-section {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.main-btn {
+    font-size: 20px;
+    margin-top: 22px;
+    background-color: #6278B4;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+}
+ul {
+    list-style: none;
+}
+span {
+    color: #6278B4;
+}
+.services-title {
+    font-size: 40px;
+    padding: 20px;
+    border-bottom: 4px solid #6278B4;
+    margin-bottom: 30px;
+}
+.services-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 130px;
+    row-gap: 40px;
+}
+.iconxtitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.icon {
+    height: 100%;
+    width: 3rem;
+}
+.services-text {
+    margin-left: 3.5rem;
+}
+.information-title {
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 0.5rem;
+}
+.benefits-title {
+    font-weight: 900;
+    font-size: 42px;
+    color: #6278B4;
+}
+.benefits-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 110px;
+    margin-top: 80px;
+}
+.text-section2 {
+    margin-left: 110px;
+    margin-top: 5rem;
+}
+.benefits-text {
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.doctors-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.doctors-title {
+    font-size: 40px;
+    border-bottom: 4px solid #6278B4;
+    padding: 10px;
+    margin: 40px;
+}
+.doctors-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.doctors-name {
+    margin-bottom: 40px;
+    font-size: 25px;
+    border-top: 4px solid #3A2E2E;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.doctors-list-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer {
+    background-color: #535353;
+}
+.name {
+    color: #6278B4;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+.logoxtitle {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid #6278B4;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.logo {
+    height: 100%;
+    width: 3rem;
+    margin-top: 20px;
+}
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-title {
+    color: white;
+    margin-bottom: 30px;
+}
+.contacts-text {
+    color: white;
+    font-size: 17px;
+    padding-left: 20px;
+}
+.contacts-part {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+}
